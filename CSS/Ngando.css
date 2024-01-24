@@ -1,0 +1,1124 @@
+*{
+    margin:0;
+    padding:0;
+    text-decoration: none;
+    list-style: none;
+    box-sizing: border-box;
+}
+body{
+    height:250%;
+    width:100%;
+    font-family: sans-serif;
+}
+header{
+    height: 350px;
+    width: 100%;
+    background-image:linear-gradient(rgba(0,0,0,0.4),rgba(0,0,0,0.4)),url("../IMAGES/recette.jpg");
+    background-size: cover;
+    background-position: center;
+}
+.Logo{
+    position: relative;
+    top: 25px;
+    left: 30px;
+}
+.Logo-link{
+    letter-spacing:2px;
+    font-size: 22px;
+    font-weight: bold;
+    color: white;
+}
+.list-menu{
+    float: right;
+    margin-right: 50px;
+}
+.list-menu>li{
+    display: inline-block;
+    line-height: 80px;
+    margin: 0px 7px;
+}
+.List-link{
+   font-size: 15px;
+   font-weight: bold;
+   color: white;
+   padding: 7px 13px;
+}
+#List-active, .list-menu>li .List-link:hover{
+   background-color: salmon;
+   transition: 1s;
+   border-radius: 5px;
+}
+.check-btn{
+    height: 30px;
+    width: 30px;
+    background-image: url(../Images/menu.png);
+    float: right;
+    margin-top: 7px;
+    margin-right: 20px;
+    cursor: pointer;
+    display: none;
+}
+#check{
+    display: none;
+}
+.NetWork1{
+    display: none;
+}
+main{
+    height: 1900px;
+    width: 100%;
+    z-index: 1;
+}
+.back{
+    height: 100;
+    width: 100;
+    background-color: salmon;
+}
+.name-center{
+    color: white;
+    font-size: 18px;
+    font-weight: bold;
+    text-align: center;
+    padding: 200px 0  0 0;
+}
+.name-center a{
+    color: rgb(107, 31, 31);
+}
+.pres{
+    height: 400px;
+    width: 100%;
+    display: flex;
+    margin-top: 50px;
+    overflow: hidden;
+}
+.congo{
+    height: 100%;
+    width: 40%;
+    background:center center / cover no-repeat url("../IMAGES/ngando.jpg") ;
+    margin-left: 10%;
+    overflow: hidden;
+}
+.congo-text{
+    height: 100%;
+    width: 30%;
+    box-shadow: 1px 0 0 0  rgb(179, 176, 176);
+}
+.c-congo{
+    text-align: center;
+    padding: 40px 0 0 0 ;
+    color: rgb(85, 85, 85);
+}
+.c-congo-text{
+    color: rgb(109, 105, 105); 
+    font-size: 13.5px; 
+    font-weight: bold;
+    text-align: center;
+    padding: 60px 0 0 0 ;
+    line-height: 25px;
+}
+.detail{
+    height: 850px;
+    width: 100%;
+}
+.detail1{
+    height: 100px;
+    width: 100%;
+    border-bottom: 1px solid salmon;
+}
+.sous-detail1{
+    float: right;
+    margin-right: 13%;
+}
+
+.sous-detail1{
+    float: right;
+    margin-right: 13%;
+}
+
+.sous-detail1>li{
+    display: inline-block;
+    padding: 30px 120px  0px  0px;
+    font-weight: bold;
+    font-size: 15px;
+    color: rgb(102, 98, 98); 
+}
+.fa,.bon{
+    position: relative;
+    bottom: 16px;
+}
+.niveaux1{
+    height: 10px;
+    width: 70px;
+    display: flex;
+    position: relative;
+    top: 15px;
+    right: 12px;
+}
+.niveaux2{
+    height: 10px;
+    width: 70px;
+    display: flex;
+    position: relative;
+    top: 15px;
+    left: 8px;
+}
+.niveau1{
+    height: 100%;
+    width: 20%;
+    background-color: salmon;
+    border-radius: 300px;
+}
+.niveau2{
+    height: 100%;
+    width: 20%;
+    background-color: salmon;
+    border-radius: 300px;
+    margin-left: 5px;
+}
+.niveau3{
+    height: 100%;
+    width: 20%;
+    background-color:rgb(226, 221, 221);;
+    border-radius: 300px;
+    margin-left: 5px;
+}
+.niveau4{
+    height: 100%;
+    width: 20%;
+    background-color: rgb(226, 221, 221);
+    border-radius: 300px;
+    margin-left: 5px;
+}
+.niveau5{
+    height: 100%;
+    width: 20%;
+    background-color: rgb(226, 221, 221);
+    border-radius: 300px;
+    margin-left: 5px;
+}
+.temps{
+    line-height: 40px;
+    text-align: center;
+}
+.Nbre{
+    line-height: 40px;
+    text-align: center;
+}
+.how-pre{
+    height:  500px;
+    width: 100%;
+    display: flex;
+}
+.how-pre-center{
+    height: 95%;
+    width: 95%;
+    margin:0 auto;
+    margin-top: 12px;
+    display: flex;
+   
+}
+.how-section1{
+    height: 100%;
+    width: 28%;
+}
+.how-section2{
+    height: 100%;
+    width: 40%;
+   
+}
+.how-section3{
+    height: 100%;
+    width: 32%;
+}
+.how-section-name{
+    text-align: center;
+    padding: 40px 0 0 0 ;
+    color: rgb(90, 90, 90); 
+    font-size: 16.5px;  
+}
+.ingre-name{
+    color: rgb(109, 105, 105); 
+    text-align: left;
+    padding: 40px 0 0 0;
+    font-weight: bold;
+    line-height: 30px;
+    font-size: 13.5px;
+}
+.ingre-name3{
+    color: rgb(109, 105, 105); 
+    text-align: left;
+    padding: 40px 0 0 0;
+    font-weight: bold;
+    line-height: 25px;
+    font-size: 13.5px;
+}
+#autre{
+    color: rgb(90, 90, 90); 
+    font-size: 19px;  
+    position: relative;
+    top: 35px;
+    text-align: center;
+}
+.blog{
+    height: 400px;
+    width: 100%;
+    margin-top: 100px;
+}
+#blog{
+    height: 100%;
+    width: 90%;
+    display: flex;
+    flex-direction: row;
+    margin: 0 auto;
+}
+.blog-article{
+    height: 100%;
+    width: 25%;
+    margin-left: 15px;
+    border-bottom: 1px solid salmon;
+}
+.blog-article-img1{
+    height: 80%;
+    width: 100%;
+    background:center center / cover no-repeat url("../IMAGES/Mikungu.JPG") ;
+}
+.blog-article-img2{
+    height: 80%;
+    width: 100%;
+    background:center center / cover no-repeat url("../IMAGES/ndunda.jpg") ;
+}
+.blog-article-img3{
+    height: 80%;
+    width: 100%;
+    background:center center / cover no-repeat url("../IMAGES/nsaka.jpg") ;
+}
+.blog-article-img4{
+    height: 80%;
+    width: 100%;
+    background:center center / cover no-repeat url("../IMAGES/madesu.jpg") ;
+}
+.btn{
+    height: 25px;
+    width: 100px;
+    background-color: salmon;
+    position: relative;
+    top: 30px;
+    left: 32%;
+}
+.read{
+    color: white;
+    font-weight: bold;
+    font-size: 14px;
+    position: relative;
+    left: 18px;
+    cursor: pointer;
+}
+.btn:hover{
+    transform: scale(0.98);
+}
+.name-r{
+    text-align: center;
+    position: relative;
+    top: 20px;
+    font-weight: bold;
+    font-size: 14px;
+    color: #555;
+}
+footer{
+    height: 200px;
+    width: 100%;
+    background-color: #222;
+    overflow: hidden;
+}
+.debut{
+    width: 100%;
+    height: 85%;
+    background-color:#333;
+    display: flex;
+    flex-direction: row;
+}
+.lire{
+    position: relative;
+    left: 5%;
+    text-align: center;
+    margin-top: 45px;
+}
+.lire-link{
+    color: white;
+    font-family: sans-serif;
+    font-weight: bold;
+    font-size: 14px;
+    line-height: 25px;
+}
+.follow2{
+    margin-top: 10px;
+    font-size: 15px;
+    text-align: center;
+    font-family: sans-serif;
+    font-weight: bold;
+    color: white;
+}
+.NetWork2{
+    position: absolute;
+    right: 45%;
+}  
+.Facebook,.youtube,.instagram{
+    float: left;
+    margin-left: 10px;
+    position: relative;
+    top: 25px;
+}
+.Facebook{
+    height: 35px;
+    width: 35px;
+    cursor: pointer;
+    background-image: url("../Images/facebook.png");
+}
+.Facebook:hover{
+    transform: scale(0.9);
+}
+.youtube{
+    height: 35px;
+    width: 35px;
+    cursor: pointer;
+    background-image: url("../Images/youtube.png");
+}
+.youtube:hover{
+    transform: scale(0.9);
+}
+.instagram{
+    height: 35px;
+    width: 35px;
+    cursor: pointer;
+    background-image: url("../Images/insta.png");
+}
+.instagram:hover{
+    transform: scale(0.9);
+}
+.return{
+    height: 35px;
+    width: 35px;
+    background-image: url("../Images/up.png"); 
+    position: absolute;
+    right: 5%;
+    margin-top: 5%;
+}
+.fin{
+    font-size: 14px;
+    text-align: center;
+    font-family: sans-serif;
+    font-weight: bold;
+    color: white;
+    margin-top: 5px;
+}
+@media screen and (min-width:680px) and (max-width:959px){
+    
+    body{
+        height: 350%;
+    }
+    header{
+        height: 300px;
+    }
+    .Logo{
+        position: relative;
+        left: 20px;
+        top: 20px;
+    }
+    .Logo-link{
+        font-size: 17px;
+    }
+    .list-menu{
+        margin-right: 25px;
+    }
+    .list-menu>li{
+        line-height: 60px;
+        margin: 0px 5px;
+    }
+    .List-link{
+        font-size: 15px;
+        padding: 2px 5px;
+    }
+    .name-center{ 
+        padding: 140px 0  0 0;
+    }
+    main{
+        height:1850px;
+        width: 100%;
+        z-index: 1;
+    }
+    .pres{
+        height: 300px;
+        width: 100%;
+        margin-top: 20px; 
+    }
+    .congo-text{
+        height: 100%;
+        width: 45%;
+        box-shadow: 1px 0 0 0  rgb(179, 176, 176);
+    }
+    .sous-detail1{
+        float: right;
+        margin-right: 2%;
+    }
+    .sous-detail1>li{
+        display: inline-block;
+        padding: 30px 80px  0px  0px;
+        font-weight: bold;
+        font-size: 13.5px;
+        color: rgb(102, 98, 98); 
+    }
+    .detail{
+        height: 1500px;
+        width: 100%;
+        
+    }
+    .how-pre{
+        height:  1400px;
+        width: 100%;
+        display: flex;
+      
+    }
+   .how-pre-center{
+      display: block;
+      margin-top: 0px;
+   
+    }
+    .how-section1{
+        height: 28%;
+        width: 80%;
+        margin:0 auto ;
+    }
+    .how-section2{
+        height: 53%;
+        width: 80%;
+        margin:0 auto ;
+        position: relative;
+        top: 0px;
+       
+    }
+    .how-section3{
+        height: 25%;
+        width: 80%;
+        margin:0 auto ;
+        position: relative;
+        top: 0px;
+       
+    }
+    #autre{
+        font-size: 16px;
+    }
+    .blog{
+        height: 270px;
+        width: 100%;
+        margin-top: 70px;
+    }
+    #blog{
+       width: 95%;
+    }
+    .blog-article{
+        height: 100%;
+        width: 28%;
+        margin-left: 10px;
+        border-bottom: none;
+    }
+    .btn{
+        height: 25px;
+        width: 80px;
+        background-color: salmon;
+        position: relative;
+        top: 35px;
+        left: 32%;
+    }
+    .read{
+        color: white;
+        font-weight: bold;
+        font-size: 13.5px;
+        position: relative;
+        left: 8px;
+        top:4px;
+        cursor: pointer;
+    }
+    .btn:hover{
+        transform: scale(0.98);
+    }
+    .name-r{
+        text-align: center;
+        position: relative;
+        top: 20px;
+        font-weight: bold;
+        font-size: 14px;
+        color: #555;
+    }
+   footer{
+        height:160px;
+        width: 100%;
+        background-color: #222;
+        overflow: hidden;
+    }
+    .lire-link{
+        color: white;
+        font-family: sans-serif;
+        font-weight: bold;
+        font-size: 13.5px;
+        line-height: 25px;
+    }
+    .follow2{
+        margin-top: 10px;
+        font-size: 13.5px;
+    }
+    .Facebook{
+        height: 30px;
+        width: 30px;
+        cursor: pointer;
+        background-image: url("../Images/facebook1.png");
+    }
+     .youtube{
+        height: 30px;
+        width: 30px;
+        cursor: pointer;
+        background-image: url("../Images/youtube1.png");
+    }
+    .instagram{
+        height: 30px;
+        width: 30px;
+        cursor: pointer;
+        background-image: url("../Images/insta1.png");
+    }
+    .return{
+        height: 30px;
+        width: 30px;
+        background-image: url("../Images/up1.png"); 
+        position: absolute;
+        right: 5%;
+        margin-top: 5%;
+    }
+    .fin{
+        font-size: 13px;
+        text-align: center;
+        font-family: sans-serif;
+        font-weight: bold;
+        color: white;
+        margin-top: 5px;
+    }
+}
+@media screen and (min-width:501px) and (max-width:679px){
+    body{
+        height: 350%;
+    }
+    
+    header{
+        height: 300px;
+    }
+    
+    .Logo{
+        position: relative;
+        left: 20px;
+        top: 20px;
+    }
+    .Logo-link{
+        font-size: 17px;
+    }
+    
+    .list-menu{
+        margin-right: 25px;
+    }
+    .list-menu>li{
+        line-height: 60px;
+        margin: 0px 5px;
+    }
+    .List-link{
+        font-size: 15px;
+        padding: 2px 5px;
+    }
+    .name-center{ 
+        padding: 120px 0  0 0;
+    }
+    main{
+        height:3500px;
+        width: 100%;
+        z-index: 1;
+    }
+    .pres{
+        height: 250px;
+        width: 100%;
+        display: flex;
+        margin-top: 20px;
+        overflow: hidden;
+    }
+    .congo{
+        height: 100%;
+        width: 40%;
+        margin-left: 10px;
+        overflow: hidden;
+    }
+    .congo-text{
+        height: 100%;
+        width: 55%;
+        box-shadow:none;
+        position: relative;
+        left: 10px;
+        overflow: hidden;
+    }
+    .c-congo{
+        text-align: center;
+        padding: 10px 0 0 0 ;
+        color: rgb(85, 85, 85);
+    }
+    .c-congo-text{
+        color: rgb(109, 105, 105); 
+        font-size: 13.5px; 
+        font-weight: bold;
+        text-align: center;
+        padding: 20px 0 0 0 ;
+        line-height: 25px;
+    }
+    .detail{
+        height: 1800px;
+        width: 100%;
+      
+      
+    }
+    .detail1{
+        height: 70px;
+        width: 100%;
+        border-bottom: 1px solid salmon;
+    }
+    .sous-detail1{
+        float: right;
+        margin-right: 65px;;
+    }
+    
+    .sous-detail1>li{
+        display: inline-block;
+        padding: 20px 20px  0px  0px;
+        font-weight: bold;
+        font-size: 13.5px;
+        color: rgb(102, 98, 98); 
+    } 
+    .fa,.bon{
+        position: relative;
+        bottom: 16px;
+    }
+    
+    .niveaux1{
+        height: 10px;
+        width: 70px;
+        display: flex;
+        position: relative;
+        top: 15px;
+        right: 12px;
+    }
+    .niveaux2{
+        height: 10px;
+        width: 70px;
+        display: flex;
+        position: relative;
+        top: 15px;
+        left: 8px;
+    }
+    .niveau1{
+        height: 100%;
+        width: 20%;
+        background-color: salmon;
+        border-radius: 300px;
+    }
+    .niveau2{
+        height: 100%;
+        width: 20%;
+        background-color: salmon;
+        border-radius: 300px;
+        margin-left: 5px;
+    }
+    .niveau3{
+        height: 100%;
+        width: 20%;
+        background-color:rgb(226, 221, 221);;
+        border-radius: 300px;
+        margin-left: 5px;
+    }
+    .niveau4{
+        height: 100%;
+        width: 20%;
+        background-color: rgb(226, 221, 221);
+        border-radius: 300px;
+        margin-left: 5px;
+    }
+    .niveau5{
+        height: 100%;
+        width: 20%;
+        background-color: rgb(226, 221, 221);
+        border-radius: 300px;
+        margin-left: 5px;
+    }
+    .temps{
+        line-height: 40px;
+        text-align: center;
+    }
+    .Nbre{
+        line-height: 40px;
+        text-align: center;
+    }
+    .how-pre{
+        height:  1500px;
+        width: 100%;
+        display: flex;
+        
+
+        
+    }
+    .how-pre-center{
+        height: 100%;
+        display: block;
+        margin-top: 0px;
+    }
+      .how-section1{
+        height: 25%;
+        width: 80%;
+        margin:0 auto ;
+       
+      }
+    .how-section2{
+        height: 60%;
+        width: 80%;
+        margin:0 auto ;
+        position: relative;
+        top: 10px;
+      
+    
+    }
+    .how-section3{
+        height: 23%;
+        width: 80%;
+        margin:0 auto ;
+        position: relative;
+        top: 20px;
+        
+    }
+    #autre{
+        color: rgb(90, 90, 90); 
+        font-size: 15px;  
+        position: relative;
+        top: 15px;
+        text-align: center;
+    }
+    .blog{
+        height: 1400px;
+        margin-top: 100px;
+    }
+    #blog{
+        display: block;
+        margin-top:-70px;
+    }
+    .blog-article{
+        height: 300px;
+        width: 70%;
+        margin: 0 auto;
+        margin-top: 30px;
+        border-bottom: none;
+    }
+    .btn{
+        height: 25px;
+        width: 80px;
+        top: 30px;
+        left: 40%;
+    }
+    .read{
+        font-size: 13px;
+        left: 14px;
+    }
+    .name-r{
+        top: 20px;
+        font-weight: bold;
+        font-size: 14px;
+    }
+    footer{
+        height:160px;
+        width: 100%;
+    }
+    .lire{
+        left: 3%;
+        text-align: center;
+        margin-top: 45px;
+    }
+    .lire-link{
+        font-size: 13.5px;
+        line-height: 25px;
+    }
+    .NetWork2{
+        position: absolute;
+        right: 25%; 
+    }
+    .follow2{
+        margin-top: 10px;
+        font-size: 13.5px;
+    }
+    .Facebook,.youtube,.instagram{
+        height: 30px;
+        width: 30px;
+        background-image: url("../Images/facebook1.png");
+    }
+    .Facebook{
+        background-image: url("../Images/facebook1.png");
+    }
+    .youtube{
+        background-image: url("../Images/youtube1.png");
+    }
+    .instagram{
+        background-image: url("../Images/insta1.png");
+    }
+    .return{
+        height: 30px;
+        width: 30px;
+        background-image: url("../Images/up1.png"); 
+        right: 5%;
+        margin-top: 5%;
+    }
+    .fin{
+        font-size: 13px;
+        margin-top: 5px;
+    }
+}
+@media screen and (max-width:500px){
+    body{
+        height: 440%;
+    }
+    header{
+       height: 250px;
+    }
+    .check-btn{
+        display: block;
+    }
+    .Logo {
+        left: 17px;
+        top: 17px;
+    }
+    .Logo-link{
+        font-size: 15px;
+    }
+    .list-menu{
+        position: fixed;
+        height:100%;
+        width: 100%;
+        background:#333;
+        opacity: 0.8;
+        top: 45px;
+        left: -100%;
+        text-align: center;
+        transition: all .5s ;
+        z-index: 10;
+    }
+    .navbar .list-menu li{
+        display: block;
+    }
+    #check:checked ~ .list-menu{
+        left:0;
+    }
+    .List-link{
+        font-size: 15px;
+        padding: 2px 5px;
+    }
+    main{
+        height:3830px;
+
+    }
+    .name-center{ 
+        padding: 120px 0  0 0;
+    }
+    .pres{
+        height: 500px;
+        width: 100%;
+        display: block;
+        margin-top: 20px;
+        overflow: hidden;
+    }
+    .congo{
+        height: 50%;
+        width: 80%;
+        margin-left: none;
+        margin: 0 auto;
+        overflow: hidden;
+    }
+    .congo-text{
+        height: 50%;
+        width: 80%;
+        box-shadow:none;
+        position: relative;
+        left: 0;
+        overflow: hidden;
+        margin: 0 auto;
+    }
+    .c-congo{
+        text-align: center;
+        padding: 10px 0 0 0 ;
+        color: rgb(85, 85, 85);
+    }
+    .c-congo-text{
+        color: rgb(109, 105, 105); 
+        font-size: 13.5px; 
+        font-weight: bold;
+        text-align: center;
+        padding: 20px 0 0 0 ;
+        line-height: 25px;
+    }
+    .detail{
+        height: 1900px;
+        width: 100%;
+      
+    }
+    .detail1{
+        height: 70px;
+        width: 100%;
+        border-bottom: 1px solid salmon;
+    }
+    .sous-detail1{
+        float: right;
+        margin-right: 20px;;
+    }
+    
+    .sous-detail1>li{
+        display: inline-block;
+        padding: 13px 20px  0px  0px;
+        font-weight: bold;
+        font-size: 12.5px;
+        color: rgb(102, 98, 98); 
+    } 
+    .fa,.bon{
+        position: relative;
+        bottom: 14px;
+    }
+    .how-pre{
+        height:  1830px;
+        width: 100%;
+        display: flex;
+       
+
+    }
+    .how-pre-center{
+        display: block;
+        margin-top: 0px;
+       
+       
+      }
+      .how-section1{
+        height: 24%;
+        width: 80%;
+        margin:0 auto ; 
+    }
+    .how-section2{
+        height: 53%;
+        width: 80%;
+        margin:0 auto ;
+        position: relative;
+        top: 10px;
+       
+    }
+    .how-section3{
+        height: 25%;
+        width: 80%;
+        margin:0 auto ;
+        position: relative;
+        top: 20px;
+      
+    }
+    #autre{
+        color: rgb(90, 90, 90); 
+        font-size: 15px;  
+        position: relative;
+        top: 15px;
+        text-align: center;
+    }
+    .blog{
+        height: 1400px;
+        margin-top: 100px;
+    }
+    #blog{
+        display: block;
+        margin-top:-70px;
+    }
+    .blog-article{
+        height: 300px;
+        width: 70%;
+        margin: 0 auto;
+        margin-top: 30px;
+        border-bottom: none;
+    }
+    .btn{
+        height: 25px;
+        width: 80px;
+        top: 30px;
+        left: 40%;
+    }
+    .read{
+        font-size: 13px;
+        left: 14px;
+    }
+    .name-r{
+        top: 20px;
+        font-weight: bold;
+        font-size: 14px;
+    }
+    footer{
+        height: 160px;
+    }
+    .debut{
+        width: 100%;
+        height: 85%;
+        background-color:#333;
+        display: block;
+        flex-direction: none;
+    }
+    .lire{
+        left: 0;
+        margin-top: 0px;
+        top: 10px;
+    }
+    .lire-link{
+        font-size: 13px;
+        line-height: 15px;
+    }
+    .NetWork2{
+        right: 39%;
+    }    
+    .follow2{
+        text-align: center;
+        font-size: 13px;
+        margin-top: -10px;
+        top: 35px;
+        position: relative;
+    }
+    .Facebook,.youtube,.instagram{
+        display: flex;
+        top: 40px;
+    }
+    .Facebook{
+        height:25px;
+        width: 25px;
+        background-image: url("../Images/facebook2.png");
+    }
+    .youtube{
+        height: 25px;
+        width:  25px;
+        background-image: url("../Images/youtube2.png");
+    }
+    .instagram{
+        height:25px;
+        width: 25px;
+        background-image: url("../Images/insta2.png");
+    }
+    .return{
+        height: 30px;
+        width: 30px;
+        background-image: url("../Images/up1.png"); 
+        right: 5%;
+        margin-top: 5%;
+    }
+    .fin{
+        font-size: 13px;
+    }
+
+}
+
+
+
+
+

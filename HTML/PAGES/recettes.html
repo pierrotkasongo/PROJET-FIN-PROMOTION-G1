@@ -1,0 +1,232 @@
+<!DOCTYPE html>
+<html lang="fr">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <link rel="stylesheet" href="../../CSS/recettes.css">
+    <script src="../../JS/recette.js"></script>
+    <title>Makusa-recette</title>
+</head>
+<body>
+    <!--L'entete de la page-->
+    <header>
+        <!--La barre de menu-->
+        <nav class="navbar" id="return-navbar">
+            <!--Préparation de l'icon hamburger-->
+            <input type="checkbox" id="check">
+            <label for="check" class="check-btn"></label>
+            <!-- Fin préparation de l'icon hamburger-->
+            <label class="Logo">
+                <a href="../index.html" class="Logo-link"><span class="back">M</span>AKUSA</a>
+            </label>
+            <ul class="list-menu">
+                <li>
+                    <a href="../index.html" class="List-link">Home</a>
+                </li>
+                <li>
+                    <a href="recettes.html" class="List-link"  id="List-active">Recettes</a>
+                </li>
+                <li>
+                    <a href="contact.html" class="List-link">Contact</a>
+                </li>
+            </ul>
+        </nav>
+        <!--Fin de la barre de menu-->
+        <!--Banniere-->
+        <div class="search-bar">
+            <input type="search" placeholder=" Tapez une recette..."id="search" value="" onchange="recette()" >
+            <div class="ico">
+                <img src="../../IMAGES/s1.png" class="srch" onclick="recette()">
+            </div>
+        </div>
+        <!-- Fin Banniere-->
+    </header>
+    <!--Fin  de l'entete de la page-->   
+    <main>
+        <div id="text">
+            <p  class="phare-text">
+                Le site MAKUSA vous présente des recettes congolaises traditionelles et classiques augmentées <br>
+                d'une touche de moderniste et artistique. une cuisine congolaise riche en saveur et valeur nutritionnelle, <br>
+                une diversité de recettes grace à la diversite de regions et tribus du congo.<br>
+                C'est tout un art, une culture, la culture alimentaire congolaise.
+            </p>
+        </div>
+       <div class="tout">
+        <div class="blog">
+            <section id="blog">
+                <article class="blog-article">
+                   <div class="blog-article-img1"></div>
+                   <div>
+                       <p class="name-r">Mabundu grillé</p>
+                       <a href="../PAGES/recettes/Mabundu.html">
+                        <div class="btn">
+                            <label class="read">Voir plus</label>
+                        </div>
+                    </a>
+                   </div>
+                </article>
+                <article class="blog-article">
+                    <div class="blog-article-img2"></div>
+                    <div>
+                        <p  class="name-r">Mboloko/Antilope</p>
+                        <a href="../PAGES/recettes/Mboloko.html">
+                            <div class="btn">
+                                <label class="read">Voir plus</label>
+                            </div>
+                        </a>
+                    </div>
+                </article>
+                <article class="blog-article">
+                    <div class="blog-article-img3"></div>
+                    <div>
+                        <p  class="name-r">Aubergine</p>
+                        <a href="../PAGES/recettes/Auberge.html">
+                            <div class="btn">
+                                <label class="read" >Voir plus</label>
+                            </div>
+                        </a>
+                    </div>
+                </article>
+                <article class="blog-article">
+                    <div class="blog-article-img4" ></div>
+                    <div>
+                        <p  class="name-r">Makayabu</p>
+                        <a href="../PAGES/recettes/Makayabu.html">
+                            <div class="btn">
+                                <label class="read" >voir plus</label>
+                            </div>
+                        </a>
+                    </div>
+                </article>
+            </section>
+        </div>
+        <div class="blog">
+            <section id="blog">
+                <article class="blog-article">
+                   <div class="blog-article-img5" ></div>
+                   <div>
+                       <p class="name-r">Ngando</p>
+                       <a href="../PAGES/recettes/Ngando.html">
+                        <div class="btn">
+                            <label class="read">Voir plus</label>
+                        </div>
+                    </a>
+                   </div>
+                </article>
+                <article class="blog-article">
+                    <div class="blog-article-img6"></div>
+                    <div>
+                        <p  class="name-r">Ngai-ngai</p>
+                        <a href="../PAGES/recettes/Ngai-ngai.html">
+                            <div class="btn">
+                                <label class="read">Voir plus</label>
+                            </div>
+                        </a>
+                    </div>
+                </article>
+                <article class="blog-article">
+                    <div class="blog-article-img7"></div>
+                    <div>
+                        <p  class="name-r">Misili</p>
+                        <a href="../PAGES/recettes/Misili.html">
+                            <div class="btn">
+                                <label class="read" >Voir plus</label>
+                            </div>
+                        </a>
+                    </div>
+                </article>
+                <article class="blog-article">
+                    <div class="blog-article-img8" ></div>
+                    <div>
+                        <p  class="name-r">Mayebo</p>
+                        <a href="../PAGES/recettes/Mayebo.html">
+                            <div class="btn">
+                                <label class="read" >voir plus</label>
+                            </div>
+                        </a>
+                    </div>
+                </article>
+            </section>
+        </div>
+        <div class="blog">
+            <section id="blog">
+                <article class="blog-article">
+                   <div class="blog-article-img9" ></div>
+                   <div>
+                       <p class="name-r">Dongo-dongo</p>
+                       <a href="../PAGES/recettes/Dongo-dongo.html">
+                        <div class="btn">
+                            <label class="read">Voir plus</label>
+                        </div>
+                    </a>
+                   </div>
+                </article>
+                <article class="blog-article">
+                    <div class="blog-article-img10" ></div>
+                    <div>
+                        <p  class="name-r">Ndunda</p>
+                        <a href="../PAGES/recettes/Ndunda.html">
+                            <div class="btn">
+                                <label class="read">Voir plus</label>
+                            </div>
+                        </a>
+                    </div>
+                </article>
+                <article class="blog-article">
+                    <div class="blog-article-img11"></div>
+                    <div>
+                        <p  class="name-r">Mikungu</p>
+                        <a href="../PAGES/recettes/Mikungu.html">
+                            <div class="btn">
+                                <label class="read" >Voir plus</label>
+                            </div>
+                        </a>
+                    </div>
+                </article>
+                <article class="blog-article">
+                    <div class="blog-article-img12" ></div>
+                    <div>
+                        <p  class="name-r">Ngolo au braise</p>
+                        <a href="../PAGES/recettes/Ngolo.html">
+                            <div class="btn">
+                                <label class="read" >voir plus</label>
+                            </div>
+                        </a>
+                    </div>
+                </article>
+            </section>
+        </div>
+       </div>
+    </main>
+    <footer>
+        <div class="debut">
+            <p class="lire">
+                <a href="../index.html" class="lire-link">Home -</a>
+                <a href="recettes.html" class="lire-link">recettes -</a> 
+                <a href="contact.html" class="lire-link">contact</a> <br>
+                <a href="#"  class="lire-link">Mentions légalés</a><br>
+                <a href="#"  class="lire-link">Condition générale d'utilisation</a><br>
+            </p>
+            <a href="#return-navbar">
+                <div class="return"></div>
+            </a>
+            <div class="NetWork2">
+                <h4 class="follow2">Suivez-nous!</h4>
+                <a href="https://www.facebook.com/Makusa-100268418523664/">
+                    <div class="Facebook"></div>
+                </a>
+                <a href="https://www.youtube.com/channel/UCzOcbUnjMwXApWsSu7qyOfg">
+                    <div class="youtube"></div>
+                </a>
+                <a href="">
+                    <div class="instagram"></div>
+                </a>
+            </div>
+        </div>
+        <div class="fin">
+            &copy; 2019 - 2020 - Students Project - Tous droits réservés
+        </div>
+    </footer> 
+</body>
+</html>

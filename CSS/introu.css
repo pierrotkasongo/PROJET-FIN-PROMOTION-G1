@@ -1,0 +1,262 @@
+*{
+    padding: 0;
+    margin: 0;
+    text-decoration: none;
+}
+body{
+    
+    width: 100%;
+    background-color: rgb(240, 240, 225);
+    background-attachment: fixed;
+    font-family: sans-serif;
+}
+.center{
+    width: 65%;
+    height:500px;
+   
+    margin: auto;
+    margin-top: 50px;
+    display: flex;
+    position: relative;
+    
+}
+.center-img{
+   height: 100%;
+   width: 40%;
+ 
+}
+svg{
+    position: relative;
+    left: 30%;
+    top:30%;
+}
+.center-text{
+    height: 100%;
+    width: 60%;
+  
+    position: relative;
+}
+.text1{
+    text-align: center;
+    font-size: 20px;
+    color: #777;
+    padding: 80px 0 0 0;
+    font-weight: lighter;
+}
+ul{
+  float: right;
+  margin-right: 20%;
+  padding: 80px 0 0 0;
+}
+ul li{
+    color: rgb(87, 83, 83);
+    font-size: 16px;
+    line-height: 30px;
+    font-weight:bold ;
+}
+.btn{
+    height: 30px;
+    width: 90px;
+    background-color: rgb(55, 55, 121);
+    position: absolute;
+    bottom: 25%;
+    left: 40%;
+}
+.retour{
+    color: white;
+    font-weight: bold;
+    position: relative;
+    left: 20px;
+    top: 5px;
+}
+@media screen and (min-width:680px) and (max-width:959px){
+   
+    .center{
+        width: 80%;
+        height:450px;
+     
+        margin: auto;
+        margin-top: 50px;
+        display: flex;
+        position: relative;
+        
+    }
+    .center-img{
+       height: 100%;
+       width: 30%;
+      
+     
+    }
+    svg{
+        position: relative;
+        left:10%;
+        top:30%;
+        height: 100px;
+        width: 100px;
+    }
+    .center-text{
+        height: 100%;
+        width: 70%;
+        
+        position: relative;
+    }
+    .text1{
+        text-align: center;
+        font-size: 19px;
+        color: #777;
+        padding: 80px 0 0 0;
+        font-weight: lighter;
+    }
+    ul{
+      float: right;
+      margin-right: 20%;
+      padding: 80px 0 0 0;
+    }
+    ul li{
+        color: rgb(87, 83, 83);
+        font-size: 15px;
+        line-height: 30px;
+        font-weight:bold ;
+    }
+    .btn{
+        height: 30px;
+        width: 90px;
+        background-color: rgb(55, 55, 121);
+        position: absolute;
+        bottom: 25%;
+        left: 40%;
+    }
+    .retour{
+        color: white;
+        font-weight: bold;
+        position: relative;
+        left: 20px;
+        top: 5px;
+    }
+}
+@media screen and (min-width:501px) and (max-width:679px){
+    
+    .center{
+        width: 80%;
+        height:450px;
+       
+        margin: auto;
+        margin-top: 50px;
+        display: flex;
+        position: relative;
+        
+    }
+    .center-img{
+       height: 100%;
+       width: 28%;
+    }
+    svg{
+        position: relative;
+        left:10%;
+        top:30%;
+        height: 80px;
+        width: 80px;
+    }
+    .center-text{
+        height: 100%;
+        width: 73%;
+       
+        position: relative;
+    }
+    .text1{
+        text-align: center;
+        font-size: 16px;
+        color: #777;
+        padding: 80px 0 0 0;
+        font-weight: lighter;
+    }
+    ul{
+      float: right;
+      margin-right: 10%;
+      padding: 80px 0 0 0;
+    }
+    ul li{
+        color: rgb(87, 83, 83);
+        font-size: 15px;
+        line-height: 30px;
+        font-weight:bold ;
+    }
+    .btn{
+        height: 25px;
+        width: 80px;
+        background-color: rgb(55, 55, 121);
+        position: absolute;
+        bottom: 25%;
+        left: 40%;
+    }
+    .retour{
+        color: white;
+        font-weight: bold;
+        position: relative;
+        left: 15px;
+        top: 5px;
+        font-size: 14px;
+    }
+}
+@media screen and (max-width:500px){
+    .center{
+        width: 100%;
+        height:450px;
+        margin: auto;
+        margin-top: 50px;
+        display: block;
+        position: relative;
+        
+    }
+    .center-img{
+       height: 25%;
+       width: 100%;
+    }
+    svg{
+        position: relative;
+        left:39%;
+        top:30%;
+        height: 80px;
+        width: 80px;
+    }
+    .center-text{
+        height: 100%;
+        width: 100%;
+       
+        position: relative;
+    }
+    .text1{
+        text-align: center;
+        font-size: 16px;
+        color: #777;
+        padding: 10px 0 0 0;
+        font-weight: lighter;
+    }
+    ul{
+      float: right;
+      margin-right: 18%;
+      padding: 50px 0 0 0;
+    }
+    ul li{
+        color: rgb(87, 83, 83);
+        font-size: 15px;
+        line-height: 30px;
+        font-weight:bold ;
+    }
+    .btn{
+        height: 25px;
+        width: 80px;
+        background-color: rgb(55, 55, 121);
+        position: absolute;
+        bottom:50%;
+        left: 40%;
+    }
+    .retour{
+        color: white;
+        font-weight: bold;
+        position: relative;
+        left: 15px;
+        top: 5px;
+        font-size: 14px;
+    }
+}

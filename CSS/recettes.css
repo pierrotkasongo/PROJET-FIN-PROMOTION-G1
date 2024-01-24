@@ -1,0 +1,823 @@
+*{
+    margin:0;
+    padding:0;
+    text-decoration: none;
+    list-style: none;
+    box-sizing: border-box;
+}
+body{
+    height:250%;
+    width:100%;
+    font-family: sans-serif;
+}
+header{
+    height: 500px;
+    width: 100%;
+    background-image:linear-gradient(rgba(0,0,0,0.4),rgba(0,0,0,0.4)),url("../IMAGES/recette.jpg");
+    background-size: cover;
+    background-position: center;
+}
+.Logo{
+    position: relative;
+    top: 25px;
+    left: 30px;
+}
+.Logo-link{
+    letter-spacing:2px;
+    font-size: 22px;
+    font-weight: bold;
+    color: white;
+}
+.list-menu{
+    float: right;
+    margin-right: 50px;
+}
+.list-menu>li{
+    display: inline-block;
+    line-height: 80px;
+    margin: 0px 7px;
+}
+.List-link{
+   font-size: 15px;
+   font-weight: bold;
+   color: white;
+   padding: 7px 13px;
+}
+#List-active, .list-menu>li .List-link:hover{
+   background-color: salmon;
+   transition: 1s;
+   border-radius: 5px;
+}
+.check-btn{
+    height: 30px;
+    width: 30px;
+    background-image: url(../Images/menu.png);
+    float: right;
+    margin-top: 7px;
+    margin-right: 20px;
+    cursor: pointer;
+    display: none;
+}
+#check{
+    display: none;
+}
+.back{
+    height: 100;
+    width: 100;
+    background-color: salmon;
+}
+.NetWork1{
+    display: none;
+}
+.search-bar{
+    height: 50px;
+    width: 45%;
+    position: absolute;
+    left: 30%;
+    top: 350px;
+    display: flex;
+}
+#search{
+  height: 100%;
+  width: 90%;
+  text-align: center;
+  font-size: 17px;
+  border-bottom-left-radius: 22px;
+  border-top-left-radius: 22px;
+  border: none;
+  color: #777;
+}
+.ico{
+    height: 100%;
+    width: 10%;
+    background-color: salmon;
+    border-bottom-right-radius: 22px;
+    border-top-right-radius: 22px;
+}
+.srch{
+    position: relative;
+    left: 20%;
+    top: 10px;
+    cursor: pointer;
+}
+main{
+    height: 1700px;
+    width: 100%;
+    z-index: 1;
+}
+#text{
+    height: 250px;
+    width: 100%;
+}
+.phare-text{
+    text-align: center;
+    line-height: 30px;
+    padding: 90px 0 0 0;
+    animation: animate2 2s 1;
+    font-weight: 700;
+    color: #666;
+}
+.blog{
+    height: 400px;
+    width: 100%;
+    margin-top: 40px;
+}
+#blog{
+    height: 100%;
+    width: 90%;
+    display: flex;
+    flex-direction: row;
+    margin: 0 auto;
+}
+.blog-article{
+    height: 100%;
+    width: 25%;
+    margin-left: 15px;
+    border-bottom: 1px solid salmon;
+}
+.blog-article-img1{
+    height: 80%;
+    width: 100%;
+    background:center center / cover no-repeat url("../IMAGES/MABUNDU-GRILLE-1-1855146350.jpg") ;
+
+}
+.blog-article-img2{
+    height: 80%;
+    width: 100%;
+    background:center center / cover no-repeat url("../IMAGES/MBOLOKO-6-3353786244.jpg") ;
+
+}
+.blog-article-img3{
+    height: 80%;
+    width: 100%;
+    background:center center / cover no-repeat url("../IMAGES/AUBERGINES.jpg") ;
+
+}
+.blog-article-img4{
+    height: 80%;
+    width: 100%;
+    background:center center / cover no-repeat url("../IMAGES/makayabu_cuisine_congolaise_1-3337221799.jpg") ;
+
+}
+.blog-article-img5{
+    height: 80%;
+    width: 100%;
+    background:center center / cover no-repeat url("../IMAGES/ngando.jpg") ;
+
+}
+.blog-article-img6{
+    height: 80%;
+    width: 100%;
+    background:center center / cover no-repeat url("../IMAGES/ngai-ngai.jpg") ;
+
+}
+.blog-article-img7{
+    height: 80%;
+    width: 100%;
+    background:center center / cover no-repeat url("../IMAGES/missili.jpg") ;
+
+}
+.blog-article-img8{
+    height: 80%;
+    width: 100%;
+    background:center center / cover no-repeat url("../IMAGES/Mayebo.jpg") ;
+
+}
+.blog-article-img9{
+    height: 80%;
+    width: 100%;
+    background:center center / cover no-repeat url("../IMAGES/dongo\ dongo.jpg") ;
+
+}
+.blog-article-img10{
+    height: 80%;
+    width: 100%;
+    background:center center / cover no-repeat url("../IMAGES/ndunda.jpg") ;
+
+}
+.blog-article-img11{
+    height: 80%;
+    width: 100%;
+    background:center center / cover no-repeat url("../IMAGES/Mikungu.JPG") ;
+
+}
+.blog-article-img12{
+    height: 80%;
+    width: 100%;
+    background:center center / cover no-repeat url("../IMAGES/ngolo.jpg") ;
+
+}
+.name-r{
+    text-align: center;
+    position: relative;
+    top: 20px;
+    font-weight: bold;
+    font-size: 14px;
+    color: #555;
+}
+.btn{
+    height: 25px;
+    width: 100px;
+    background-color: salmon;
+    position: relative;
+    top: 30px;
+    left: 32%;
+}
+.read{
+    color: white;
+    font-weight: bold;
+    font-size: 14px;
+    position: relative;
+    left: 18px;
+    cursor: pointer;
+}
+.btn:hover{
+    transform: scale(0.98);
+}
+footer{
+    height: 200px;
+    width: 100%;
+    background-color: #222;
+    overflow: hidden;
+}
+.debut{
+    width: 100%;
+    height: 85%;
+    background-color:#333;
+    display: flex;
+    flex-direction: row;
+}
+.lire{
+    position: relative;
+    left: 5%;
+    text-align: center;
+    margin-top: 45px;
+}
+.lire-link{
+    color: white;
+    font-family: sans-serif;
+    font-weight: bold;
+    font-size: 14px;
+    line-height: 25px;
+}
+.return{
+    height: 35px;
+    width: 35px;
+    background-image: url("../Images/up.png"); 
+    position: absolute;
+    right: 5%;
+    margin-top: 5%;
+}
+.NetWork2{
+    position: absolute;
+    right: 45%;
+} 
+.follow2{
+    margin-top: 10px;
+    font-size: 15px;
+    text-align: center;
+    font-family: sans-serif;
+    font-weight: bold;
+    color: white;
+} 
+.Facebook,.youtube,.instagram{
+    float: left;
+    margin-left: 10px;
+    position: relative;
+    top: 25px;
+}
+.Facebook{
+    height: 35px;
+    width: 35px;
+    cursor: pointer;
+    background-image: url("../Images/facebook.png");
+}
+.Facebook:hover{
+    transform: scale(0.9);
+}
+.youtube{
+    height: 35px;
+    width: 35px;
+    cursor: pointer;
+    background-image: url("../Images/youtube.png");
+}
+.youtube:hover{
+    transform: scale(0.9);
+}
+.instagram{
+    height: 35px;
+    width: 35px;
+    cursor: pointer;
+    background-image: url("../Images/insta.png");
+}
+.instagram:hover{
+    transform: scale(0.9);
+}
+.fin{
+    font-size: 14px;
+    text-align: center;
+    font-family: sans-serif;
+    font-weight: bold;
+    color: white;
+    margin-top: 5px;
+}
+
+@media screen and (min-width:680px) and (max-width:959px){
+    
+    body{
+        height: 350%;
+    }
+    
+    header{
+        height: 300px;
+    }
+    
+    .Logo{
+        position: relative;
+        left: 20px;
+        top: 20px;
+    }
+    .Logo-link{
+        font-size: 17px;
+    }
+    
+    .list-menu{
+        margin-right: 25px;
+    }
+    .list-menu>li{
+        line-height: 60px;
+        margin: 0px 5px;
+    }
+    .List-link{
+        font-size: 15px;
+        padding: 2px 5px;
+    }
+    .search-bar{
+        height: 35px;
+        width: 50%;
+        position: absolute;
+        left: 30%;
+        top: 150px;
+    }   
+    #search{
+        height: 100%;
+        width: 80%;
+        font-size: 15px;
+    }
+    .ico{
+        height: 101%;
+        width: 13%;
+        background-color: salmon;
+        border-bottom-right-radius: 22px;
+        border-top-right-radius: 22px;
+    }
+    .srch{
+        position: relative;
+        left: 20%;
+        top: 2px;
+        cursor: pointer;
+    }
+    main{
+        height: 1200px;
+        width: 100%;
+        z-index: 1;
+    }
+    #text{
+        height: 150px;
+        width: 100%;
+    }
+    .phare-text{
+        text-align: center;
+        line-height: 25px;
+        padding: 30px 0 0 0;
+        font-weight: 700;
+        font-size: 14px;
+        color: #666;
+    }
+    .blog{
+        height: 270px;
+        width: 100%;
+        margin-bottom: 70px;
+    }
+    #blog{
+        width: 95%;
+    }
+    .blog-article{
+        height: 100%;
+        width: 28%;
+        margin-left: 10px;
+        border-bottom: none;
+    }
+    .name-r{
+        text-align: center;
+        position: relative;
+        top: 10px;
+        font-weight: bold;
+        font-size: 14px;
+        color: #555;
+    }
+    .btn{
+        height: 25px;
+        width: 80px;
+        background-color: salmon;
+        position: relative;
+        top: 20px;
+        left: 32%;
+    }
+    .read{
+        color: white;
+        font-weight: bold;
+        font-size: 14px;
+        position: relative;
+        left: 10px;
+        top: 3px;
+        cursor: pointer;
+    }
+    .btn:hover{
+        transform: scale(0.98);
+    }
+    
+    footer{
+        height:160px;
+        width: 100%;
+        background-color: #222;
+        overflow: hidden;
+    }
+    .lire-link{
+        color: white;
+        font-family: sans-serif;
+        font-weight: bold;
+        font-size: 13.5px;
+        line-height: 25px;
+    }
+    .return{
+        height: 30px;
+        width: 30px;
+        background-image: url("../Images/up1.png"); 
+        position: absolute;
+        right: 5%;
+        margin-top: 5%;
+    }
+    .NetWork2{
+        position: absolute;
+        right: 33%; 
+    }
+    .follow2{
+        margin-top: 10px;
+        font-size: 13.5px;
+    }
+    .Facebook{
+        height: 30px;
+        width: 30px;
+        cursor: pointer;
+        background-image: url("../Images/facebook1.png");
+    }
+    .youtube{
+        height: 30px;
+        width: 30px;
+        cursor: pointer;
+        background-image: url("../Images/youtube1.png");
+    }
+    .instagram{
+        height: 30px;
+        width: 30px;
+        cursor: pointer;
+        background-image: url("../Images/insta1.png");
+    }
+
+    .fin{
+        font-size: 13px;
+        text-align: center;
+        font-family: sans-serif;
+        font-weight: bold;
+        color: white;
+        margin-top: 5px;
+    }
+}
+@media screen and (min-width:501px) and (max-width:679px){
+    body{
+        height: 350%;
+    }
+    
+    header{
+        height: 300px;
+    }
+    
+    .Logo{
+        position: relative;
+        left: 20px;
+        top: 20px;
+    }
+    .Logo-link{
+        font-size: 17px;
+    }
+    
+    .list-menu{
+        margin-right: 25px;
+    }
+    .list-menu>li{
+        line-height: 60px;
+        margin: 0px 5px;
+    }
+    .List-link{
+        font-size: 15px;
+        padding: 2px 5px;
+    }
+    .search-bar{
+        height: 35px;
+        width: 80%;
+        position: absolute;
+        left: 15%;
+        top: 150px;
+    }
+    #search{
+        height: 100%;
+        width: 65%;
+        font-size: 15px;
+    }
+    .ico{
+        height: 101%;
+        width: 13%;
+        background-color: salmon;
+        border-bottom-right-radius: 22px;
+        border-top-right-radius: 22px;
+    }
+    .srch{
+        position: relative;
+        left: 20%;
+        top: 5px;
+        cursor: pointer;
+    }
+    main{
+        height: 4450px;
+        width: 100%;
+        z-index: 1;
+    } 
+    #text{
+        height: 140px;
+        width: 100%;
+    }
+    .phare-text{
+        text-align: center;
+        line-height: 20px;
+        padding: 15px 0 0 0;
+        font-weight: 700;
+        font-size: 13px;
+        color: #666;
+    }
+    .blog{
+        height: 1400px;
+        margin-top: 100px;
+    }
+    #blog{
+        display: block;
+        margin-top:-70px;
+    }
+    .blog-article{
+        height: 300px;
+        width: 70%;
+        margin: 0 auto;
+        margin-top: 30px;
+        border-bottom: none;
+    }
+    .name-r{
+        position: relative;
+        top: 20px;
+        font-weight: bold;
+        font-size: 14px;
+    }
+    .btn{
+        height: 25px;
+        width: 80px;
+        position: relative;
+        top: 30px;
+        left: 40%;
+    }
+    .read{
+        font-size: 13px;
+        position: relative;
+        left: 14px;
+    }
+    footer{
+        height:160px;
+        width: 100%;
+    }
+    .lire{
+        position: relative;
+        left: 3%;
+        text-align: center;
+        margin-top: 45px;
+    }
+    .lire-link{
+        font-size: 13.5px;
+        line-height: 25px;
+    }
+    .return{
+        height: 30px;
+        width: 30px;
+        background-image: url("../Images/up1.png"); 
+        position: absolute;
+        right: 5%;
+        margin-top: 5%;
+    }
+    .NetWork2{
+        position: absolute;
+        right: 29%; 
+    }
+    .follow2{
+        margin-top: 10px;
+        font-size: 13.5px;
+    }
+    .Facebook,.youtube,.instagram{
+        height: 30px;
+        width: 30px;
+        background-image: url("../Images/facebook1.png");
+    }
+    .Facebook{
+        background-image: url("../Images/facebook1.png");
+    }
+    .youtube{
+        background-image: url("../Images/youtube1.png");
+    }
+    .instagram{
+        background-image: url("../Images/insta1.png");
+    }
+    .fin{
+        font-size: 13px;
+        margin-top: 5px;
+    }
+}
+@media screen and (max-width:500px){
+    body{
+        height: 440%;
+    }
+    header{
+       height: 250px;
+    }
+    .check-btn{
+        display: block;
+    }
+    .Logo {
+        left: 17px;
+        top: 17px;
+    }
+    .Logo-link{
+        font-size: 15px;
+    }
+    .list-menu{
+        position: fixed;
+        height:100%;
+        width: 100%;
+        background:#333;
+        opacity: 0.8;
+        top: 45px;
+        left: -100%;
+        text-align: center;
+        transition: all .5s ;
+        z-index: 10;
+    }
+    .navbar .list-menu li{
+        display: block;
+    }
+    #check:checked ~ .list-menu{
+        left:0;
+    }
+    .List-link{
+        font-size: 15px;
+        padding: 2px 5px;
+    }
+    main{
+        height: 4500px;
+
+    }
+    .search-bar{
+        height: 35px;
+        width: 85%;
+        position: absolute;
+        left:10%;
+        top: 130px;
+    }
+    #search{
+        height: 100%;
+        width: 80%;
+        font-size: 15px;
+    }
+    .ico{
+        height: 101%;
+        width: 13%;
+        background-color: salmon;
+        border-bottom-right-radius: 22px;
+        border-top-right-radius: 22px;
+    }
+    .srch{
+        position: relative;
+        left: 1.5%;
+        top: 5px;
+        cursor: pointer;
+    }
+    #text{
+        height: 180px;
+        width: 100%;
+    }
+    .phare-text{
+        text-align: center;
+        line-height: 20px;
+        padding: 15px 0 0 0;
+        font-weight: 700;
+        font-size: 13px;
+        color: #666;
+    }
+    .tout{
+        width: 100%;
+        height: 4200px;
+        margin-top: 50px;
+    }
+    .blog{
+        height: 1400px;
+    }
+    #blog{
+        display: block;
+        position: relative;
+        
+    }
+    .blog-article{
+        height: 300px;
+        width: 100%;
+        margin: 0 auto;
+        margin-top: 30px;
+        border-bottom: none;
+        }
+    .btn{
+        height: 25px;
+        width: 80px;
+        top: 30px;
+        left: 40%;
+    }
+    .read{
+        font-size: 13px;
+        left: 14px;
+    }
+    .name-r{
+        top: 20px;
+        font-weight: bold;
+        font-size: 14px;
+    }
+    footer{
+        height: 160px;
+    }
+    .debut{
+        width: 100%;
+        height: 85%;
+        background-color:#333;
+        display: block;
+        flex-direction: none;
+    }
+    .lire{
+        left: 0;
+        margin-top: 0px;
+        top: 10px;
+    }
+    .lire-link{
+        font-size: 13px;
+        line-height: 15px;
+    }
+    .return{
+        height: 30px;
+        width: 30px;
+        background-image: url("../Images/up1.png"); 
+        right: 5%;
+        margin-top: 5%;
+    }
+    .NetWork2{
+        right: 39%;
+    }    
+    .follow2{
+        text-align: center;
+        font-size: 13px;
+        margin-top: -10px;
+        top: 35px;
+        position: relative;
+    }
+    .Facebook,.youtube,.instagram{
+        display: flex;
+        top: 40px;
+    }
+    .Facebook{
+        height:25px;
+        width: 25px;
+        background-image: url("../Images/facebook2.png");
+    }
+    .youtube{
+        height: 25px;
+        width:  25px;
+        background-image: url("../Images/youtube2.png");
+    }
+    .instagram{
+        height:25px;
+        width: 25px;
+        background-image: url("../Images/insta2.png");
+    }
+    .fin{
+        font-size: 13px;
+    }
+}
